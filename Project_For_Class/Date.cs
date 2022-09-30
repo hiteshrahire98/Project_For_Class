@@ -4,35 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project_For_Class
-{
-    public class Date
-    {
-        private int day, year;
+//namespace Project_For_Class
+//{
+//    public class Date
+//    {
+//        private int day, year;
 
-        private string month;
+//        private string month;
 
-        // using method assign value to the member
+//        // using method assign value to the member
 
-        public void AddValues(int d, string m, int y)
+//        public void AddValues(int d, string m, int y)
 
-        {
+//        {
 
-            day = d;
+//            day = d;
 
-            month = m;
+//            month = m;
 
-            year = y;
+//            year = y;
 
-        }
+//        }
 
-        public string GetValues()
+//        public string GetValues()
 
-        {
+//        {
 
-            return $"Date : {day}/{month}/{year}";  //Date : 29/Sept/2022
+//            return $"Date : {day}/{month}/{year}";  
 
-        }
+//        }
 
-    }
-}
+//    }
+//}
